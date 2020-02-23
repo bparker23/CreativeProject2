@@ -1,23 +1,3 @@
-.currentForecast{
-  text-align: center;
-  background-color: #9CD7FF;
-  border-color: black;
-  border-width: 2px;
-  border-style:ridge;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  flex-wrap: wrap;
-}
-h1, form {
-  text-align: center;
-}
-.page {
-  background-color: #EDEDED;
-  font-family: "Verdana", sans-serif;
-}
-
 .container{
   width: 100%;
   height: auto;
@@ -30,73 +10,155 @@ h1, form {
 
 }
 
-.content ul{
-}
- .col {
-   width: 20%;
-   height: 150px;
-   background: #9CD7FF;
-   margin: 20px;
-   box-sizing: border-box;
-   border-color: black;
-   border-width: 2px;
-   border-style: outset;
-}
-.col p, h2, img {
-  text-align: center;
-  margin-bottom: -2px;
-}
-.test h3 {
-  font-size: 30px;
-  text-align: center;
-  background-color: #f9ab55;
-}
-
-.randomBox {
-  float:
-  width:100%;
-  height: 100px;
-}
-
-.test h3 a{
-  color: black;
-  text-decoration: none;
-}
-.test {
-  width: 100%;
-}
-
-.imageContainer{
-  align-items: center;
-  align-content: center;
-  display: flex;
-  padding: 150px;
-}
-.imageContainer img{
-  width: 600;
-  height: 600;
-}
-
-.ingredients{
-  color: red;
-  width: 100%;
-  display: flex;
-}
-
-.videoLink a{
-  color: orange;
-  width: 100%;
-  display: flex;
-}
 
 footer {
   text-align: center;
-  background-color: #909cc2;
+  /* background-color: #999ca3; */
+  background-color: #443e5e;
+
+}
+
+footer, a {
+  color:#f0f3fa
 }
 
 
-@media (max-width: 400px) {
-  .flex-grid {
-    display: block;
-  }
+.navbar-expand-lg, .navbar-light, .bg-light{
+  /* background-color: #000000 !important; */
+  background-color: #443e5e !important;
+  font-family:'Lucida Console', Monaco, monospace !important;
+  font-size: 24px !important;
+  color: white !important;
+}
+.navbar-brand img{
+  width: 50px;
+  height: 50px;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #8C8C8C !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-toggler-icon {
+        background-color: #F7F7F7 !important;
+}
+
+
+.page{
+  background-color: #F7F7F7 !important;
+  font-family:'Lucida Console', Monaco, monospace !important;
+  color: #404040 !important;
+  overflow: auto;
+  position: relative;
+  font-size: 1.0em !important
+}
+.page-name-container{
+  display: flex;
+  justify-content: left;
+}
+
+.page-name{
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  text-align: left;
+}
+
+.item-name-container{
+  display: flex;
+  justify-content: left;
+}
+
+.item-name{
+ margin: auto;
+ width: 50%;
+ padding: 10px;
+ text-align: center;
+}
+
+.page h3{
+  font-size: 1.5em;
+}
+
+
+
+
+.review-container{
+  max-width: auto;
+  font-family:'Lucida Console', Monaco, monospace !important;
+  margin-bottom: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.review-image-container{
+  max-width: 600px;
+  max-height: 600px;
+
+  margin: auto;
+  width: 75%;
+}
+.review-image-container img{
+  max-width: 600px;
+  max-height: 600px;
+}
+.review-paragraph-container{
+  max-width: 600px;
+  text-align: center;
+  padding-left: 0px;
+  max-width: auto;
+  padding-top: 25px;
+  padding-left: 0px;
+
+  margin: auto;
+  width: 75%;
+}
+
+.review-paragraph-container a{
+  justify-content: center;
+}
+
+.review-paragraph-container ul{
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0em;
+}
+
+.review-container-title {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+
+
+.container img{
+  width: 100%
+}
+
+.instructions-paragraph-container p{
+    text-align: left !important;
+}
+
+.instructions-paragraph-container a{
+    color: #443e5e;
+    text-align: center !important;
+    font-size: 1.3em;
+}
+
+.image{
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  justify-content: left;
 }
